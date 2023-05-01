@@ -1,15 +1,37 @@
-@import-normalize; /* bring in normalize.css styles */
+
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 50px 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  /* background: url(./images/bgi.jpg) repeat; */
+  /* background-size: 400px auto; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
